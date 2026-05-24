@@ -1,0 +1,25 @@
+# A small calculator. Type two numbers and an operation.
+
+make calculate with a, b, operation
+    if operation is "+"
+        give back a + b
+    otherwise if operation is "-"
+        give back a - b
+    otherwise if operation is "*"
+        give back a * b
+    otherwise if operation is "/"
+        give back a / b
+    otherwise
+        say "I don't know the operation " + operation
+        give back 0
+
+say "Simple calculator!"
+ask first "First number: "
+ask op "Operation (+, -, *, /): "
+ask second "Second number: "
+
+let x be number of first
+let y be number of second
+let answer be calculate with x, y, op
+
+say text of x + " " + op + " " + text of y + " = " + text of answer

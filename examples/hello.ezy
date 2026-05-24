@@ -1,0 +1,6 @@
+# The classic first program: greet the world, then the user.
+say "Hello, world!"
+
+ask name "What is your name? "
+say "Nice to meet you, " + name
+say "Welcome to Ezy!"

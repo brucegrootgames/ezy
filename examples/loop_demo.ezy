@@ -1,0 +1,14 @@
+# Two kinds of loop: counting a fixed number of times, and looping while
+# a condition stays true.
+
+say "Counting with 'repeat N times':"
+repeat 3 times
+    say "  Loop!"
+
+say "Counting up with 'repeat while':"
+let count be 1
+repeat while count is at most 5
+    say "  count is " + text of count
+    change count to count + 1
+
+say "Done counting."

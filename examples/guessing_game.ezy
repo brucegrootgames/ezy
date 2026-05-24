@@ -1,0 +1,21 @@
+# A number guessing game. Ezy picks a secret number and you try to find it.
+let secret be random with 1, 10
+let guesses be 0
+let found be no
+
+say "I'm thinking of a number between 1 and 10."
+
+repeat while not found
+    ask answer "Your guess? "
+    let guess be number of answer
+    change guesses to guesses + 1
+
+    if guess is secret
+        say "Correct! You got it in " + text of guesses + " tries."
+        change found to yes
+    otherwise if guess is bigger than secret
+        say "Too high. Try again."
+    otherwise
+        say "Too low. Try again."
+
+say "Thanks for playing!"

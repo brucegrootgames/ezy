@@ -1,0 +1,21 @@
+# Functions let you name a piece of work and reuse it.
+
+# A function that just does something (prints a greeting):
+make greet with person
+    say "Hi " + person + ", great to see you!"
+
+greet with "Sam"
+greet with "Ada"
+
+# A function that gives a value back so you can use it in math:
+make double with n
+    give back n * 2
+
+let result be double with 21
+say "Double of 21 is " + text of result
+
+# Functions can call other functions, too.
+make area with width, height
+    give back width * height
+
+say "A 3 by 4 room has area " + text of (area with 3, 4)
