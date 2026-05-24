@@ -187,7 +187,7 @@ Oops! Something went wrong on line 1.
   e.g.  "Score: " + text of score
 ```
 
-That's Ezy. Have fun! 🌱
+That's Ezy. Have fun! 
 
 ---
 
