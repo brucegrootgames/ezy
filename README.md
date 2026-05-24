@@ -1,4 +1,4 @@
-# Ezy 🌱
+# Ezy 
 
 **Ezy** is a tiny programming language for absolute beginners. It reads like
 plain English — no curly braces, no semicolons, no `main()`, and no imports
